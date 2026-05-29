@@ -18,8 +18,11 @@ export const createUser = (userId: string, availableBalance: number) => {
         userId,
         availableBalance,
         lockedMargin:0,
-        realizedPnl:0,
-        
+        realizedPnl:0,     
     }
     return { userId: userId }
+}
+
+export const placeOrder = (userId: string, initialBalance: number) => {
+    
 }

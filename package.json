@@ -19,6 +19,10 @@
   "packageManager": "bun@1.3.14",
   "workspaces": [
     "apps/*",
-    "packages/*"
-  ]
+    "packages/eslint-config",
+    "packages/typescript-config"
+  ],
+  "dependencies": {
+    "redis": "^6.0.0"
+  }
 }
